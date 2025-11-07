@@ -17,6 +17,7 @@ public class SearchNilai15 {
         System.out.print("Masukkan nilai yang ingin dicari: ");
         int key = input.nextInt();
         
+        
         int hasil = -1; 
         
         for (int i = 0; i < arrNilai.length; i++) {
@@ -25,7 +26,7 @@ public class SearchNilai15 {
                 break; 
             }
         }
-        
+         
         System.out.println();
         if (hasil != -1) {
             System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (hasil + 1));
