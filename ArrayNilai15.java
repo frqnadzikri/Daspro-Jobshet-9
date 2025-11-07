@@ -10,12 +10,13 @@ public class ArrayNilai15 {
             nilaiAkhir[i] = sc.nextInt();
         }
 
-        System.out.println("\nDaftar Mahasiswa yang Lulus:");
-        
-        // Modifikasi langkah 6:
+        System.out.println(); // Baris kosong untuk pemisah
+
         for (int i = 0; i < nilaiAkhir.length; i++) {
             if (nilaiAkhir[i] > 70) {
                 System.out.println("Mahasiswa ke-" + i + " lulus!");
+            } else {
+                System.out.println("Mahasiswa ke-" + i + " tidak lulus!");
             }
         }
 
